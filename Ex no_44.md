@@ -13,14 +13,6 @@ To write a C Write a functions to perform enqueue, dequeue, display, peek in Que
 7. End
 ## Program:
 ```
-/*
-C functions to perform enqueue, dequeue, display, peek in Queue using Array.
-Developed by: 
-RegisterNumber:  
-*/
-```
-
-## Output:
 char queue[50]; 
 int size=10,front,rear,i; 
 void enqueue(char data) 
@@ -58,6 +50,18 @@ printf("%c\n",queue[front]);
 } 
  
 }
+```
+
+## Output:
+A\
+B\
+C\
+D\
+A\
+B\
+C\
+D\
+B
 
 ## Result:
 Thus the program was executed and the output was verified successfully.
